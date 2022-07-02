@@ -1,0 +1,36 @@
+
+body{
+    background-color: rgb(133, 241, 234);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+h1{
+    color: rgb(5, 92, 26);
+    
+}
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+h2{
+    color: darkred;
+}
+p{
+    text-align: justify;
+}
+.basico{
+    color: rgb(40, 124, 24);
+    font-weight: bold;
+}
+.intermediario{
+    color: rgb(17, 180, 17);
+    font-weight: bold;
+}
+.avncado{
+    color: rgb(201, 66, 25);
+    font-weight: inherit;
+}
+.destaque{
+    background-color: rgba(16, 212, 114, 0.993);
+}
