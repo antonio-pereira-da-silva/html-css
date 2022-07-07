@@ -9,19 +9,36 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+        tbody > tr:nth-child(odd){
+            background-color: rgb(156, 154, 163);
+       
+        }
+        
         table{
-            width: 400px;
+            width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.5em;
+            background-color: lightgray;
+            padding: 10px;
+            font-weight: bold;
         }
         td,th{
             border: 1px solid black;
-            text-align: center;
+            text-align: left;
             padding: 5px;
-        }
+        } 
         thead, tfoot{
-            background-color: darkgray;
+            background-color:red;
             color: white;
         }
+        thead > tr > th{
+            position: sticky;
+            top: -0.5px;
+            background-color: red;
+         }   
         td.num{
             text-align: right;
         }
@@ -30,10 +47,16 @@
 <body>
     <p>Uso de tabelas grandes</p>
     <table>
+        <tfoot>
+            <tr>
+                <th scope="rol">Totalização</th>
+                <td class="num">101.254.258</td>
+            </tr>
+        <caption>Populção das Unidades Brasileiras</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -52,18 +75,155 @@
             <tr>
                 <td>Bahia</td>
                 <td class="num">14.016.906</td>
+            </tr> 
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.262.199</td>
             </tr>
             <tr>
-                <td>Paraná</td>
-                <td class="num">10.444.526</td>
+                <td>Minas Gerais</td>
+                <td class="num">19.597.330</td>
             </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num" >15.989.929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.262.199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19.597.330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num" >15.989.929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr> 
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.262.199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19.597.330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num" >15.989.929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.262.199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19.597.330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num" >15.989.929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr> 
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.262.199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19.597.330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num" >15.989.929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.262.199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19.597.330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num" >15.989.929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr> 
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.262.199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19.597.330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num" >15.989.929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.262.199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19.597.330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num" >15.989.929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr> 
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.262.199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19.597.330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num" >15.989.929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr>
+              
             
         </tbody>
-        <tfoot>
-            <tr>
-                <th>Totalização</th>
-                <td class="num">101.254.258</td>
-            </tr>
+        
         </tfoot>
     </table>
 </body>
